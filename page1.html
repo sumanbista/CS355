@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Page 1</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+            <li><a href="#">About</a></li>
+            <button id="darkBtn">Toogle Dark Mode</button>
+        </ul>
+    </div>
+
+    <div class="page1">
+        <p>Course Enrollment Form</p>
+    </div>
+
+    <div class="form-container">
+        <form action="page2.html">
+            <div class="form-info">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="enroll">Choose Course to enroll</label>
+                <br>
+                <input type="radio" id="html" value="HTML" name="course">
+                <label for="html">HTML</label>
+                <br>
+                <input type="radio" id="css" value="CSS" name="course">
+                <label for="css">CSS</label>
+                <br>
+                <input type="radio" id="javascript" value="JavaScript" name="course">
+                <label for="javascript">JavaScript</label>
+                <br>
+                <input type="radio" id="python" value="python" name="course">
+                <label for="python">Python</label>
+                <br>
+                <input type="radio" id="java" value="java" name="course">
+                <label for="java">Java</label>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    
+    </div>
+
+</body>
+<script src="page2.js"></script>
+
+</html>
