@@ -49,36 +49,38 @@ img {
 .nav-bar{
     position:sticky;
     top:0;
+    width:100%;
 }
 
 ul{
     list-style-type: none;
-    padding:1.5em;
-    margin:1.5em;
-    width: 100%;
+    padding:15px;
+    margin:none;
     overflow: hidden;
     background-color: #2da698;
+
 }
 
 li{
     display: inline;
-    float: left;
+    float:left;
+    
 }
 
 li a{
     display: block;
     color:#ffffff;
     text-decoration: none ;
-    text-align: center;
-    padding:.5em .5em;
+    padding:10px 10px;
     font-size:20px;
     font-weight: bold;
       
 }
 
 li a:hover{
-    background-color: #1be844;
+    background-color: #041106;
     color: #ffffff;
+    border-radius: 10px;
 }   
 
 #intro{
